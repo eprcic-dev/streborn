@@ -44,7 +44,7 @@ const flushThreshold = 256 * 1024
 // out Wi-Fi hiccups and give a fresh attachment an instant prefill, small
 // enough that a track skip becomes audible in seconds rather than after the
 // minutes of buffer the unpaced passthrough used to hand the box.
-const oggLeadCapSec = 10
+const oggLeadCapSec = 3
 
 // maxFlushAge bounds how long a partial batch may sit before it is flushed to
 // the box anyway. Under realtime pacing the size threshold alone would turn
